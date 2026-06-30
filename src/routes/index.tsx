@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import firstEnvelopeImage from "../../WhatsApp Image 2026-06-19 at 9.19.48 AM.png";
 import secondEnvelopeImage from "../../WhatsApp Image 2026-06-20 at 7.31.04 AM.png";
 import invitationAudio from "../../WhatsApp Audio 2026-06-20 at 7.41.21 AM.mp4";
+import backgroundImage from "../../images.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -117,7 +118,7 @@ function Invitation() {
           opened ? "envelope-opened" : ""
         }`}
         style={{
-          backgroundImage: "url('./images.jpg')",
+          backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -178,7 +179,7 @@ function Invitation() {
           opened ? "opacity-100 translate-y-0" : "opacity-0 pointer-events-none translate-y-12"
         }`}
         style={{
-          backgroundImage: "url('./images.jpg')",
+          backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
