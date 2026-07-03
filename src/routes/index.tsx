@@ -133,7 +133,7 @@ function Invitation() {
         <div className="relative z-10 flex flex-col items-center w-full max-w-2xl mx-auto">
           {/* العنوان الرئيسي للدعوة */}
           <h1 className="text-4xl md:text-6xl mb-12 text-center text-[#fdfbf7] font-display tracking-wider drop-shadow-lg animate-fade-in">
-            دعوة خاصة بانتظاركم
+            دعوة الزفاف بانتظاركم
           </h1>
 
           {/* حاوية الظرف - مضاف إليها تأثير حركي عند الحوم (Hover) والضغط */}
@@ -199,17 +199,8 @@ function Invitation() {
             }}
           >
             <div className="text-center">
-              <p className="font-display text-xl md:text-2xl tracking-widest text-[#d4af37]">
-                بسم الله الرحمن الرحيم
-              </p>
-              {/* فاصل ذهبي */}
-              <div className="mt-5 flex items-center justify-center gap-4">
-                <div className="h-px w-24 bg-gradient-to-r from-transparent to-[#d4af37]" />
-                <div className="text-[#d4af37] text-xl">✦</div>
-                <div className="h-px w-24 bg-gradient-to-l from-transparent to-[#d4af37]" />
-              </div>
               <h2
-                className="mt-5 text-5xl md:text-7xl font-display"
+                className="text-5xl md:text-7xl font-display"
                 style={{
                   background: "linear-gradient(135deg, #f5e09a, #d4af37, #aa771c)",
                   WebkitBackgroundClip: "text",
@@ -218,11 +209,20 @@ function Invitation() {
               >
                 دعوة زفاف
               </h2>
+              {/* فاصل ذهبي */}
+              <div className="mt-5 flex items-center justify-center gap-4">
+                <div className="h-px w-24 bg-gradient-to-r from-transparent to-[#d4af37]" />
+                <div className="text-[#d4af37] text-xl">✦</div>
+                <div className="h-px w-24 bg-gradient-to-l from-transparent to-[#d4af37]" />
+              </div>
+              <p className="mt-5 font-display text-xl md:text-2xl tracking-widest text-[#d4af37]">
+                بسم الله الرحمن الرحيم
+              </p>
             </div>
 
             <div className="mt-10 flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#d4af37]" />
-              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم</p>
+              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم لحضور حفل زفافنا المبارك</p>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#d4af37]" />
             </div>
 
@@ -315,7 +315,7 @@ function Invitation() {
               style={{ boxShadow: "inset 0 1px 0 rgba(212,175,55,0.1)" }}
             >
               <span className="text-xl">🌙</span>
-              <span className="text-sm md:text-base text-[#c8a96e]/80">
+              <span className="text-2xl md:text-3xl font-display text-[#c8a96e]">
               جنة الاطفال منازلهم
               </span>
             </div>
