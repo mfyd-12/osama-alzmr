@@ -316,7 +316,7 @@ function Invitation() {
             >
               <span className="text-4xl">🌙</span>
               <span className="text-4xl md:text-5xl font-display text-[#c8a96e]">
-              جنة الاطفال منازلهم
+               الاطفال منازلهم
               </span>
             </div>
           </div>
