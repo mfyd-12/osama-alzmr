@@ -1,6 +1,6 @@
 import { r as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-JcmCl4rh.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DH877WRh.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var WhatsApp_Image_2026_06_19_at_9_19_48_AM_default = "/assets/WhatsApp%20Image%202026-06-19%20at%209.19.48%20AM-Cgs3OXNO.png";
@@ -97,7 +97,7 @@ function Invitation() {
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 							className: "text-4xl md:text-6xl mb-12 text-center text-[#fdfbf7] font-display tracking-wider drop-shadow-lg animate-fade-in",
-							children: "دعوة خاصة بانتظاركم"
+							children: "دعوة الزفاف بانتظاركم"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "envelope-wrap relative cursor-pointer select-none group max-w-md w-full aspect-[4/3] flex items-center justify-center overflow-visible transition-transform duration-500 ease-out active:scale-95",
@@ -148,9 +148,14 @@ function Invitation() {
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 									className: "text-center",
 									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "font-display text-xl md:text-2xl tracking-widest text-[#d4af37]",
-											children: "بسم الله الرحمن الرحيم"
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+											className: "text-5xl md:text-7xl font-display",
+											style: {
+												background: "linear-gradient(135deg, #f5e09a, #d4af37, #aa771c)",
+												WebkitBackgroundClip: "text",
+												WebkitTextFillColor: "transparent"
+											},
+											children: "دعوة زفاف"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 											className: "mt-5 flex items-center justify-center gap-4",
@@ -163,14 +168,9 @@ function Invitation() {
 												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-px w-24 bg-gradient-to-l from-transparent to-[#d4af37]" })
 											]
 										}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-											className: "mt-5 text-5xl md:text-7xl font-display",
-											style: {
-												background: "linear-gradient(135deg, #f5e09a, #d4af37, #aa771c)",
-												WebkitBackgroundClip: "text",
-												WebkitTextFillColor: "transparent"
-											},
-											children: "دعوة زفاف"
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+											className: "mt-5 font-display text-xl md:text-2xl tracking-widest text-[#d4af37]",
+											children: "بسم الله الرحمن الرحيم"
 										})
 									]
 								}),
@@ -180,7 +180,7 @@ function Invitation() {
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-px w-16 bg-gradient-to-r from-transparent to-[#d4af37]" }),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "text-lg md:text-xl text-[#c8a96e]",
-											children: "يتشرف بدعوتكم"
+											children: "يتشرف بدعوتكم لحضور حفل زفافنا المبارك"
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-px w-16 bg-gradient-to-l from-transparent to-[#d4af37]" })
 									]
@@ -292,7 +292,7 @@ function Invitation() {
 									className: "text-xl",
 									children: "🌙"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "text-sm md:text-base text-[#c8a96e]/80",
+									className: "text-2xl md:text-3xl font-display text-[#c8a96e]",
 									children: "جنة الاطفال منازلهم"
 								})]
 							})

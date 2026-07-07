@@ -222,7 +222,7 @@ function Invitation() {
 
             <div className="mt-10 flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#d4af37]" />
-              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم لحضور حفل زفافنا المبارك</p>
+              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم لحضور حفل </p>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#d4af37]" />
             </div>
 
