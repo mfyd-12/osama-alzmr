@@ -222,7 +222,7 @@ function Invitation() {
 
             <div className="mt-10 flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
               <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#d4af37]" />
-              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم لحضور حفل </p>
+              <p className="text-lg md:text-xl text-[#c8a96e]">يتشرف بدعوتكم لحضور حفل زفافنا المبارك</p>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#d4af37]" />
             </div>
 
@@ -311,11 +311,11 @@ function Invitation() {
           {/* تنبيه الأطفال */}
           <div className="reveal mt-12 text-center">
             <div
-              className="inline-flex items-center gap-3 rounded-full border border-[#d4af37]/25 bg-[#1e1506]/60 px-6 py-3"
+              className="inline-flex items-center gap-5 rounded-full border border-[#d4af37]/25 bg-[#1e1506]/60 px-10 py-6"
               style={{ boxShadow: "inset 0 1px 0 rgba(212,175,55,0.1)" }}
             >
-              <span className="text-xl">🌙</span>
-              <span className="text-2xl md:text-3xl font-display text-[#c8a96e]">
+              <span className="text-4xl">🌙</span>
+              <span className="text-4xl md:text-5xl font-display text-[#c8a96e]">
               جنة الاطفال منازلهم
               </span>
             </div>
